@@ -1,22 +1,16 @@
-<mxfile host="app.diagrams.net" modified="2020-11-27T04:18:16.950Z" agent="5.0 (Windows)" etag="-jFlkFh80_Wyl-HYzKen" version="13.10.4" type="github">
+<mxfile host="app.diagrams.net" modified="2020-11-27T07:11:34.193Z" agent="5.0 (Windows)" etag="2eWTvfvyw5gUVrUPeJiW" version="13.10.4" type="github">
   <diagram id="kgpKYQtTHZ0yAKxKKP6v" name="Page-1">
     <mxGraphModel dx="1038" dy="3847" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2339" pageHeight="3300" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="3nuBFxr9cyL0pnOWT2aG-1" value="用户" style="shape=umlLifeline;perimeter=lifelinePerimeter;container=1;collapsible=0;recursiveResize=0;rounded=0;shadow=0;strokeWidth=1;" parent="1" vertex="1">
-          <mxGeometry x="120" y="80" width="100" height="560" as="geometry" />
-        </mxCell>
-        <mxCell id="3nuBFxr9cyL0pnOWT2aG-3" value="dispatch" style="verticalAlign=bottom;startArrow=oval;endArrow=block;startSize=8;shadow=0;strokeWidth=1;" parent="3nuBFxr9cyL0pnOWT2aG-1" edge="1">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="-15" y="70" as="sourcePoint" />
-            <mxPoint x="45" y="70" as="targetPoint" />
-          </mxGeometry>
+          <mxGeometry x="120" y="80" width="100" height="660" as="geometry" />
         </mxCell>
         <mxCell id="3nuBFxr9cyL0pnOWT2aG-5" value="网关PEP" style="shape=umlLifeline;perimeter=lifelinePerimeter;container=1;collapsible=0;recursiveResize=0;rounded=0;shadow=0;strokeWidth=1;" parent="1" vertex="1">
-          <mxGeometry x="320" y="80" width="110" height="450" as="geometry" />
+          <mxGeometry x="320" y="80" width="110" height="660" as="geometry" />
         </mxCell>
-        <mxCell id="3nuBFxr9cyL0pnOWT2aG-8" value="a.ke.com" style="verticalAlign=bottom;endArrow=block;entryX=0;entryY=0;shadow=0;strokeWidth=1;" parent="1" edge="1">
+        <mxCell id="3nuBFxr9cyL0pnOWT2aG-8" value="a.ke.com" style="verticalAlign=bottom;endArrow=block;shadow=0;strokeWidth=1;" parent="1" target="3nuBFxr9cyL0pnOWT2aG-5" edge="1">
           <mxGeometry x="0.1176" y="10" relative="1" as="geometry">
             <mxPoint x="175" y="160.0000000000001" as="sourcePoint" />
             <mxPoint x="345" y="160.0000000000001" as="targetPoint" />
@@ -24,28 +18,28 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="vI5zeRo2F1aZtrcYhNLY-5" value="login" style="shape=umlLifeline;perimeter=lifelinePerimeter;container=1;collapsible=0;recursiveResize=0;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="1">
-          <mxGeometry x="850" y="80" width="100" height="460" as="geometry" />
+          <mxGeometry x="850" y="80" width="100" height="660" as="geometry" />
         </mxCell>
         <mxCell id="vI5zeRo2F1aZtrcYhNLY-7" value="ZTNA认证" style="shape=umlLifeline;perimeter=lifelinePerimeter;container=1;collapsible=0;recursiveResize=0;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="1">
           <mxGeometry x="1020" y="80" width="100" height="660" as="geometry" />
         </mxCell>
-        <mxCell id="vI5zeRo2F1aZtrcYhNLY-8" value="login.ke.com/login?service=login.ksg.ke.com/login?rediect=a.ke.com" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="380" y="150" width="390" height="30" as="geometry" />
+        <mxCell id="vI5zeRo2F1aZtrcYhNLY-8" value="&lt;div&gt;发现没带cookie，没有授权。302&lt;/div&gt;&lt;div&gt;login.ke.com/service=login.ksg.ke.com?rediect_url=a.ke.com&lt;/div&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="380" y="140" width="390" height="30" as="geometry" />
         </mxCell>
         <mxCell id="vI5zeRo2F1aZtrcYhNLY-9" value="" style="endArrow=classic;html=1;" edge="1" parent="1" source="3nuBFxr9cyL0pnOWT2aG-5" target="vI5zeRo2F1aZtrcYhNLY-11">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="260" y="180" as="sourcePoint" />
             <mxPoint x="430" y="130" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="680" y="190" />
+              <mxPoint x="500" y="180" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="vI5zeRo2F1aZtrcYhNLY-10" value="业务" style="shape=umlLifeline;perimeter=lifelinePerimeter;container=1;collapsible=0;recursiveResize=0;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="1">
-          <mxGeometry x="1160" y="80" width="100" height="570" as="geometry" />
+          <mxGeometry x="1160" y="80" width="100" height="660" as="geometry" />
         </mxCell>
         <mxCell id="vI5zeRo2F1aZtrcYhNLY-11" value="决策中心" style="shape=umlLifeline;perimeter=lifelinePerimeter;container=1;collapsible=0;recursiveResize=0;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="1">
-          <mxGeometry x="650" y="80" width="100" height="450" as="geometry" />
+          <mxGeometry x="650" y="80" width="100" height="660" as="geometry" />
         </mxCell>
         <mxCell id="vI5zeRo2F1aZtrcYhNLY-12" value="" style="endArrow=classic;html=1;exitX=0.527;exitY=0.337;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" target="vI5zeRo2F1aZtrcYhNLY-5">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
@@ -56,8 +50,8 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="vI5zeRo2F1aZtrcYhNLY-13" value="login.ke.com/login?service=login.ksg.ke.com/login?rediect=a.ke.com" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="380" y="200" width="370" height="20" as="geometry" />
+        <mxCell id="vI5zeRo2F1aZtrcYhNLY-13" value="ztna.ke.com/login?service=login.ksg.ke.com?rediect_url=a.ke.com" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="450" y="395" width="370" height="20" as="geometry" />
         </mxCell>
         <mxCell id="vI5zeRo2F1aZtrcYhNLY-14" value="302,种下TGC" style="verticalAlign=bottom;endArrow=block;shadow=0;strokeWidth=1;" edge="1" parent="1" target="vI5zeRo2F1aZtrcYhNLY-10">
           <mxGeometry x="1" y="-269" relative="1" as="geometry">
@@ -66,46 +60,42 @@
             <mxPoint x="245" y="-159" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="vI5zeRo2F1aZtrcYhNLY-19" value="login.ksg.lianjia.com/rediect=a.ke.com&amp;amp;st=*****" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="vI5zeRo2F1aZtrcYhNLY-19" value="login.ksg.lianjia.com/rediect_url=a.ke.com&amp;amp;st=*****" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="280" y="290" width="390" height="30" as="geometry" />
         </mxCell>
         <mxCell id="vI5zeRo2F1aZtrcYhNLY-20" value="ucid" style="verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;shadow=0;strokeWidth=1;exitX=0.48;exitY=0.627;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" target="vI5zeRo2F1aZtrcYhNLY-11">
-          <mxGeometry x="-0.0126" y="-10" relative="1" as="geometry">
+          <mxGeometry x="-0.0126" relative="1" as="geometry">
             <mxPoint x="720" y="362" as="targetPoint" />
             <mxPoint x="898" y="360" as="sourcePoint" />
             <Array as="points" />
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="vI5zeRo2F1aZtrcYhNLY-23" value="对域名下路径授权、判断域名的风险级别、判断login的登录方式，S2以上跳到302到零信任的认证平台" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="730" y="360" width="320" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="vI5zeRo2F1aZtrcYhNLY-25" value="302,种下TGC" style="verticalAlign=bottom;endArrow=block;shadow=0;strokeWidth=1;" edge="1" parent="1" source="vI5zeRo2F1aZtrcYhNLY-7" target="vI5zeRo2F1aZtrcYhNLY-11">
+        <mxCell id="vI5zeRo2F1aZtrcYhNLY-25" value="302,种下TGC" style="verticalAlign=bottom;endArrow=block;shadow=0;strokeWidth=1;entryX=0.53;entryY=0.512;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="3nuBFxr9cyL0pnOWT2aG-1" target="vI5zeRo2F1aZtrcYhNLY-7">
           <mxGeometry x="1" y="-269" relative="1" as="geometry">
-            <mxPoint x="1059.5" y="380.0000000000001" as="sourcePoint" />
-            <mxPoint x="700" y="380" as="targetPoint" />
+            <mxPoint x="700" y="380" as="sourcePoint" />
+            <mxPoint x="1059.5" y="380.0000000000001" as="targetPoint" />
             <mxPoint x="245" y="-159" as="offset" />
-            <Array as="points">
-              <mxPoint x="950" y="400" />
-            </Array>
+            <Array as="points" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="vI5zeRo2F1aZtrcYhNLY-15" value="login.ksg.lianjia.com/rediect=a.ke.com&amp;amp;st=*****" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="390" y="230" width="390" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="vI5zeRo2F1aZtrcYhNLY-26" value="return" style="verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;shadow=0;strokeWidth=1;" edge="1" parent="1" source="vI5zeRo2F1aZtrcYhNLY-5" target="3nuBFxr9cyL0pnOWT2aG-1">
-          <mxGeometry relative="1" as="geometry">
+        <mxCell id="vI5zeRo2F1aZtrcYhNLY-26" value="302，return，login.ksg.lianjia.com/rediect_url=a.ke.com&amp;st=*****&#xa;ke.com域下种TGC" style="verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;shadow=0;strokeWidth=1;" edge="1" parent="1" source="vI5zeRo2F1aZtrcYhNLY-5" target="3nuBFxr9cyL0pnOWT2aG-1">
+          <mxGeometry x="0.0123" relative="1" as="geometry">
             <mxPoint x="710" y="270" as="targetPoint" />
             <mxPoint x="899.5" y="270" as="sourcePoint" />
             <Array as="points">
               <mxPoint x="750" y="270" />
             </Array>
+            <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="vI5zeRo2F1aZtrcYhNLY-27" value="" style="endArrow=classic;html=1;entryX=0.51;entryY=0.542;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="3nuBFxr9cyL0pnOWT2aG-1" target="vI5zeRo2F1aZtrcYhNLY-11">
+        <mxCell id="vI5zeRo2F1aZtrcYhNLY-27" value="" style="endArrow=classic;html=1;entryX=0.48;entryY=0.362;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="3nuBFxr9cyL0pnOWT2aG-1" target="vI5zeRo2F1aZtrcYhNLY-11">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="590" y="290" as="sourcePoint" />
             <mxPoint x="640" y="240" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="500" y="320" />
+            </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="vI5zeRo2F1aZtrcYhNLY-28" value="" style="endArrow=classic;html=1;" edge="1" parent="1" source="vI5zeRo2F1aZtrcYhNLY-11" target="vI5zeRo2F1aZtrcYhNLY-5">
@@ -118,9 +108,9 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="vI5zeRo2F1aZtrcYhNLY-29" value="换取身份信息" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="750" y="295" width="390" height="30" as="geometry" />
+          <mxGeometry x="750" y="295" width="90" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="vI5zeRo2F1aZtrcYhNLY-32" value="" style="verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;shadow=0;strokeWidth=1;" edge="1" parent="1" source="vI5zeRo2F1aZtrcYhNLY-7" target="vI5zeRo2F1aZtrcYhNLY-11">
+        <mxCell id="vI5zeRo2F1aZtrcYhNLY-32" value="" style="verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;shadow=0;strokeWidth=1;" edge="1" parent="1" source="vI5zeRo2F1aZtrcYhNLY-7" target="3nuBFxr9cyL0pnOWT2aG-1">
           <mxGeometry x="-0.0126" y="-10" relative="1" as="geometry">
             <mxPoint x="699.5" y="360" as="targetPoint" />
             <mxPoint x="898" y="360" as="sourcePoint" />
@@ -130,18 +120,8 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="vI5zeRo2F1aZtrcYhNLY-33" value="认证成功，授权" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="770" y="420" width="260" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="vI5zeRo2F1aZtrcYhNLY-34" value="" style="verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;shadow=0;strokeWidth=1;" edge="1" parent="1" target="3nuBFxr9cyL0pnOWT2aG-1">
-          <mxGeometry x="-0.0126" y="-10" relative="1" as="geometry">
-            <mxPoint x="330" y="480" as="targetPoint" />
-            <mxPoint x="700" y="480" as="sourcePoint" />
-            <Array as="points">
-              <mxPoint x="450.5" y="480" />
-            </Array>
-            <mxPoint as="offset" />
-          </mxGeometry>
+        <mxCell id="vI5zeRo2F1aZtrcYhNLY-33" value="a.ke.com" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="600" y="490" width="260" height="30" as="geometry" />
         </mxCell>
         <mxCell id="vI5zeRo2F1aZtrcYhNLY-36" value="302,种下TGC" style="verticalAlign=bottom;endArrow=block;shadow=0;strokeWidth=1;" edge="1" parent="1">
           <mxGeometry x="1" y="-269" relative="1" as="geometry">
@@ -158,8 +138,8 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="vI5zeRo2F1aZtrcYhNLY-38" value="302，a.ke.com，授权" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="390" y="450" width="260" height="30" as="geometry" />
+        <mxCell id="vI5zeRo2F1aZtrcYhNLY-38" value="登录成功" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="600" y="670" width="60" height="40" as="geometry" />
         </mxCell>
         <mxCell id="vI5zeRo2F1aZtrcYhNLY-40" value="302,种下TGC" style="verticalAlign=bottom;endArrow=block;shadow=0;strokeWidth=1;" edge="1" parent="1">
           <mxGeometry x="1" y="-269" relative="1" as="geometry">
@@ -169,14 +149,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="vI5zeRo2F1aZtrcYhNLY-35" value="302，login.ke.com?service=a.ke.com/login" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="620" y="520" width="260" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="vI5zeRo2F1aZtrcYhNLY-41" value="" style="verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;shadow=0;strokeWidth=1;" edge="1" parent="1" target="vI5zeRo2F1aZtrcYhNLY-35">
-          <mxGeometry x="-0.0126" y="-10" relative="1" as="geometry">
-            <mxPoint x="169.5" y="540" as="targetPoint" />
-            <mxPoint x="1210.25" y="540" as="sourcePoint" />
-            <mxPoint as="offset" />
-          </mxGeometry>
+          <mxGeometry x="620" y="520" width="230" height="30" as="geometry" />
         </mxCell>
         <mxCell id="vI5zeRo2F1aZtrcYhNLY-42" value="ke域下有TGC，直接验证，无需再次登录" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="560" y="570" width="260" height="30" as="geometry" />
@@ -188,8 +161,52 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="vI5zeRo2F1aZtrcYhNLY-44" value="302，login.ke.com?service=a.ke.com/login" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="vI5zeRo2F1aZtrcYhNLY-44" value="login.ke.com?service=a.ke.com/login" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="570" y="540" width="260" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="vI5zeRo2F1aZtrcYhNLY-45" value="" style="endArrow=none;dashed=1;html=1;" edge="1" parent="1" source="vI5zeRo2F1aZtrcYhNLY-35" target="vI5zeRo2F1aZtrcYhNLY-10">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="720" y="530" as="sourcePoint" />
+            <mxPoint x="770" y="480" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vI5zeRo2F1aZtrcYhNLY-46" value="" style="endArrow=classic;html=1;dashed=1;entryX=0.49;entryY=0.853;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.53;exitY=0.847;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="vI5zeRo2F1aZtrcYhNLY-10" target="vI5zeRo2F1aZtrcYhNLY-7">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="800" y="530" as="sourcePoint" />
+            <mxPoint x="850" y="480" as="targetPoint" />
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vI5zeRo2F1aZtrcYhNLY-49" value="" style="endArrow=classic;html=1;exitX=0.52;exitY=0.933;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="vI5zeRo2F1aZtrcYhNLY-10">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="800" y="530" as="sourcePoint" />
+            <mxPoint x="170" y="700" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vI5zeRo2F1aZtrcYhNLY-52" value="" style="endArrow=classic;html=1;" edge="1" parent="1" target="vI5zeRo2F1aZtrcYhNLY-10">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1070" y="670" as="sourcePoint" />
+            <mxPoint x="1120" y="620" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vI5zeRo2F1aZtrcYhNLY-53" value="302,种下TGC" style="verticalAlign=bottom;endArrow=block;shadow=0;strokeWidth=1;" edge="1" parent="1" target="3nuBFxr9cyL0pnOWT2aG-1">
+          <mxGeometry x="1" y="-269" relative="1" as="geometry">
+            <mxPoint x="700" y="375" as="sourcePoint" />
+            <mxPoint x="370" y="375" as="targetPoint" />
+            <mxPoint x="245" y="-159" as="offset" />
+            <Array as="points">
+              <mxPoint x="610.5" y="374.5" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vI5zeRo2F1aZtrcYhNLY-54" value="&lt;div&gt;PDP对a.ke.com域名下的路径授权，判断域名的风险级别、判断login的登录方式&lt;/div&gt;&lt;div&gt;S2以上跳到302到零信任的认证平台&lt;/div&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="440" y="340" width="230" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="vI5zeRo2F1aZtrcYhNLY-55" value="login.ke.com/service=login.ksg.ke.com?rediect_url=a.ke.com" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="380" y="200" width="370" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="vI5zeRo2F1aZtrcYhNLY-56" value="认证成功，携带token" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="530" y="430" width="260" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
