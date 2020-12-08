@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2020-11-30T08:52:13.736Z" agent="5.0 (Windows)" etag="emN2fx3-aYZrh36kofPF" version="13.10.4" type="github">
+<mxfile host="app.diagrams.net" modified="2020-12-08T03:42:07.935Z" agent="5.0 (Windows)" etag="DUpP5IN38GyG_rc15sji" version="13.11.0" type="github">
   <diagram id="kgpKYQtTHZ0yAKxKKP6v" name="Page-1">
-    <mxGraphModel dx="1038" dy="547" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2339" pageHeight="3300" math="0" shadow="0">
+    <mxGraphModel dx="1038" dy="547" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="0" fold="1" page="1" pageScale="1" pageWidth="2339" pageHeight="3300" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -17,7 +17,7 @@
         <mxCell id="vI5zeRo2F1aZtrcYhNLY-5" value="login" style="shape=umlLifeline;perimeter=lifelinePerimeter;container=1;collapsible=0;recursiveResize=0;rounded=0;shadow=0;strokeWidth=1;" parent="1" vertex="1">
           <mxGeometry x="850" y="80" width="100" height="660" as="geometry" />
         </mxCell>
-        <mxCell id="vI5zeRo2F1aZtrcYhNLY-7" value="ZTNA认证" style="shape=umlLifeline;perimeter=lifelinePerimeter;container=1;collapsible=0;recursiveResize=0;rounded=0;shadow=0;strokeWidth=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
+        <mxCell id="vI5zeRo2F1aZtrcYhNLY-7" value="敏感度接口" style="shape=umlLifeline;perimeter=lifelinePerimeter;container=1;collapsible=0;recursiveResize=0;rounded=0;shadow=0;strokeWidth=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
           <mxGeometry x="1020" y="80" width="100" height="660" as="geometry" />
         </mxCell>
         <mxCell id="vI5zeRo2F1aZtrcYhNLY-65" value="" style="endArrow=classic;html=1;dashed=1;" parent="vI5zeRo2F1aZtrcYhNLY-7" source="vI5zeRo2F1aZtrcYhNLY-10" edge="1">
@@ -45,79 +45,77 @@
         <mxCell id="vI5zeRo2F1aZtrcYhNLY-11" value="决策中心" style="shape=umlLifeline;perimeter=lifelinePerimeter;container=1;collapsible=0;recursiveResize=0;rounded=0;shadow=0;strokeWidth=1;" parent="1" vertex="1">
           <mxGeometry x="650" y="80" width="100" height="660" as="geometry" />
         </mxCell>
-        <mxCell id="vI5zeRo2F1aZtrcYhNLY-12" value="" style="endArrow=classic;html=1;" parent="1" target="vI5zeRo2F1aZtrcYhNLY-5" edge="1">
+        <mxCell id="vI5zeRo2F1aZtrcYhNLY-12" value="" style="endArrow=classic;html=1;" parent="1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="160" y="230" as="sourcePoint" />
-            <mxPoint x="490.03" y="229.50000000000003" as="targetPoint" />
+            <mxPoint x="160" y="310" as="sourcePoint" />
+            <mxPoint x="899.5" y="310" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="580" y="230" />
+              <mxPoint x="580" y="310" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="vI5zeRo2F1aZtrcYhNLY-14" value="a.ke.com/login?st=*****" style="verticalAlign=bottom;endArrow=block;shadow=0;strokeWidth=1;" parent="1" target="vI5zeRo2F1aZtrcYhNLY-10" edge="1">
-          <mxGeometry x="0.0862" y="-10" relative="1" as="geometry">
+          <mxGeometry x="0.0291" y="-20" relative="1" as="geometry">
             <mxPoint x="160" y="610" as="sourcePoint" />
             <mxPoint x="1250" y="600.0000000000001" as="targetPoint" />
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="vI5zeRo2F1aZtrcYhNLY-19" value="login.ksg.lianjia.com/rediect_url=a.ke.com&amp;amp;st=*****" style="text;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="280" y="290" width="390" height="30" as="geometry" />
+          <mxGeometry x="280" y="370" width="390" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="vI5zeRo2F1aZtrcYhNLY-20" value="ucid" style="verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;shadow=0;strokeWidth=1;exitX=0.48;exitY=0.627;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" target="vI5zeRo2F1aZtrcYhNLY-11" edge="1">
+        <mxCell id="vI5zeRo2F1aZtrcYhNLY-20" value="ucid" style="verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;shadow=0;strokeWidth=1;exitX=0.48;exitY=0.627;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" edge="1">
           <mxGeometry x="-0.0126" relative="1" as="geometry">
-            <mxPoint x="720" y="362" as="targetPoint" />
-            <mxPoint x="898" y="360" as="sourcePoint" />
+            <mxPoint x="699.5" y="440" as="targetPoint" />
+            <mxPoint x="898" y="440" as="sourcePoint" />
             <Array as="points" />
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="vI5zeRo2F1aZtrcYhNLY-25" value="ztna.ke.com/login?service=login.ksg.ke.com?rediect_url=a.ke.com，登录" style="verticalAlign=bottom;endArrow=block;shadow=0;strokeWidth=1;entryX=0.53;entryY=0.512;entryDx=0;entryDy=0;entryPerimeter=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" target="vI5zeRo2F1aZtrcYhNLY-7" edge="1">
-          <mxGeometry x="-0.0361" relative="1" as="geometry">
-            <mxPoint x="160" y="418" as="sourcePoint" />
-            <mxPoint x="1059.5" y="380.0000000000001" as="targetPoint" />
+        <mxCell id="vI5zeRo2F1aZtrcYhNLY-25" value="如果已经有ST，第一次经过了授权，则去消费kafka消息" style="verticalAlign=bottom;endArrow=block;shadow=0;strokeWidth=1;entryX=0.54;entryY=0.203;entryDx=0;entryDy=0;entryPerimeter=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" target="vI5zeRo2F1aZtrcYhNLY-11" edge="1" source="3nuBFxr9cyL0pnOWT2aG-5">
+          <mxGeometry x="-0.0419" relative="1" as="geometry">
+            <mxPoint x="380" y="214" as="sourcePoint" />
+            <mxPoint x="1073" y="220.00000000000009" as="targetPoint" />
             <mxPoint as="offset" />
-            <Array as="points" />
+            <Array as="points">
+              <mxPoint x="560" y="214" />
+            </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="vI5zeRo2F1aZtrcYhNLY-26" value="302，return，login.ksg.lianjia.com/rediect_url=a.ke.com&amp;st=*****&#xa;ke.com域下种TGC" style="verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;shadow=0;strokeWidth=1;" parent="1" source="vI5zeRo2F1aZtrcYhNLY-5" edge="1">
+        <mxCell id="vI5zeRo2F1aZtrcYhNLY-26" value="302，return，login.ksg.lianjia.com/rediect_url=a.ke.com&amp;st=*****&#xa;ke.com域下种TGC" style="verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;shadow=0;strokeWidth=1;exitX=0.495;exitY=0.303;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" edge="1">
           <mxGeometry x="0.0123" relative="1" as="geometry">
-            <mxPoint x="160" y="270" as="targetPoint" />
-            <mxPoint x="899.5" y="270" as="sourcePoint" />
-            <Array as="points">
-              <mxPoint x="750" y="270" />
-            </Array>
+            <mxPoint x="160" y="360" as="targetPoint" />
+            <mxPoint x="899.5" y="359.98" as="sourcePoint" />
+            <Array as="points" />
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="vI5zeRo2F1aZtrcYhNLY-27" value="" style="endArrow=classic;html=1;entryX=0.48;entryY=0.362;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" target="vI5zeRo2F1aZtrcYhNLY-11" edge="1">
+        <mxCell id="vI5zeRo2F1aZtrcYhNLY-27" value="" style="endArrow=classic;html=1;entryX=0.48;entryY=0.362;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="160" y="319" as="sourcePoint" />
-            <mxPoint x="640" y="240" as="targetPoint" />
+            <mxPoint x="160" y="399" as="sourcePoint" />
+            <mxPoint x="698" y="398.9200000000001" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="500" y="320" />
+              <mxPoint x="500" y="400" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="vI5zeRo2F1aZtrcYhNLY-28" value="" style="endArrow=classic;html=1;" parent="1" source="vI5zeRo2F1aZtrcYhNLY-11" target="vI5zeRo2F1aZtrcYhNLY-5" edge="1">
+        <mxCell id="vI5zeRo2F1aZtrcYhNLY-28" value="" style="endArrow=classic;html=1;" parent="1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="590" y="290" as="sourcePoint" />
-            <mxPoint x="640" y="240" as="targetPoint" />
+            <mxPoint x="699.5" y="410" as="sourcePoint" />
+            <mxPoint x="899.5" y="410" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="770" y="330" />
+              <mxPoint x="770" y="410" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="vI5zeRo2F1aZtrcYhNLY-29" value="换取身份信息" style="text;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="760" y="300" width="90" height="30" as="geometry" />
+          <mxGeometry x="760" y="380" width="90" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="vI5zeRo2F1aZtrcYhNLY-32" value="" style="verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;shadow=0;strokeWidth=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" source="vI5zeRo2F1aZtrcYhNLY-7" edge="1">
+        <mxCell id="vI5zeRo2F1aZtrcYhNLY-32" value="" style="verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;shadow=0;strokeWidth=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" edge="1">
           <mxGeometry x="-0.0126" y="-10" relative="1" as="geometry">
-            <mxPoint x="160" y="450" as="targetPoint" />
-            <mxPoint x="898" y="360" as="sourcePoint" />
-            <Array as="points">
-              <mxPoint x="820" y="450" />
-            </Array>
+            <mxPoint x="370" y="252" as="targetPoint" />
+            <mxPoint x="700" y="252" as="sourcePoint" />
+            <Array as="points" />
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
@@ -139,10 +137,10 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="vI5zeRo2F1aZtrcYhNLY-35" value="302，login.ke.com?service=a.ke.com/login" style="text;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="600" y="510" width="230" height="30" as="geometry" />
+          <mxGeometry x="520" y="519" width="300" height="30" as="geometry" />
         </mxCell>
         <mxCell id="vI5zeRo2F1aZtrcYhNLY-42" value="ke域下有TGC，直接验证，无需再次登录" style="text;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="560" y="570" width="260" height="30" as="geometry" />
+          <mxGeometry x="500" y="570" width="320" height="30" as="geometry" />
         </mxCell>
         <mxCell id="vI5zeRo2F1aZtrcYhNLY-43" value="" style="verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;shadow=0;strokeWidth=1;" parent="1" edge="1">
           <mxGeometry x="-0.0126" y="-10" relative="1" as="geometry">
@@ -156,6 +154,7 @@
             <mxPoint x="160" y="540" as="sourcePoint" />
             <mxPoint x="770" y="480" as="targetPoint" />
             <Array as="points">
+              <mxPoint x="690" y="540" />
               <mxPoint x="950" y="540" />
             </Array>
           </mxGeometry>
@@ -173,20 +172,20 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="vI5zeRo2F1aZtrcYhNLY-53" value="PDP对a.ke.com域名下的路径授权，判断域名的风险级别、判断login的登录方式&#xa;S2级别以下则302跳转到零信任的认证平台" style="verticalAlign=bottom;endArrow=block;shadow=0;strokeWidth=1;dashed=1;" parent="1" edge="1">
-          <mxGeometry x="-0.0371" y="-5" relative="1" as="geometry">
-            <mxPoint x="700" y="375" as="sourcePoint" />
-            <mxPoint x="160" y="375" as="targetPoint" />
+          <mxGeometry x="-0.0001" y="-15" relative="1" as="geometry">
+            <mxPoint x="700" y="470.5" as="sourcePoint" />
+            <mxPoint x="160" y="470.5" as="targetPoint" />
             <mxPoint as="offset" />
             <Array as="points">
-              <mxPoint x="610.5" y="374.5" />
+              <mxPoint x="610.5" y="470" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="vI5zeRo2F1aZtrcYhNLY-55" value="login.ke.com/service=login.ksg.ke.com?rediect_url=a.ke.com" style="text;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="380" y="200" width="370" height="20" as="geometry" />
+          <mxGeometry x="380" y="280" width="370" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="vI5zeRo2F1aZtrcYhNLY-56" value="认证成功，携带cookie" style="text;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="530" y="430" width="260" height="30" as="geometry" />
+        <mxCell id="vI5zeRo2F1aZtrcYhNLY-56" value="如果敏感度高，则跳转到login进行认证；&lt;br&gt;否则直接访问服务，302到a.ke.com" style="text;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="435" y="230" width="260" height="30" as="geometry" />
         </mxCell>
         <mxCell id="vI5zeRo2F1aZtrcYhNLY-57" value="Actor" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" parent="1" vertex="1">
           <mxGeometry x="150" y="80" width="20" height="40" as="geometry" />
@@ -202,6 +201,45 @@
         </mxCell>
         <mxCell id="vI5zeRo2F1aZtrcYhNLY-66" value="ucid" style="text;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="1030" y="649" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="74td1c7qcJoHeYoeXkeO-1" value="" style="endArrow=classic;html=1;exitX=0.52;exitY=0.245;exitDx=0;exitDy=0;exitPerimeter=0;fillColor=#f8cecc;strokeColor=#b85450;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="902" y="321.70000000000005" as="sourcePoint" />
+            <mxPoint x="1069.5" y="321.70000000000005" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="74td1c7qcJoHeYoeXkeO-2" value="" style="endArrow=classic;html=1;entryX=0.51;entryY=0.273;entryDx=0;entryDy=0;entryPerimeter=0;dashed=1;fillColor=#f8cecc;strokeColor=#b85450;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1070" y="340" as="sourcePoint" />
+            <mxPoint x="901" y="340.18000000000006" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="74td1c7qcJoHeYoeXkeO-3" value="进行敏感度查询，获取该服务登录方式" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="910" y="290" width="220" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="74td1c7qcJoHeYoeXkeO-4" value="返回认证方式" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="940" y="340" width="90" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="74td1c7qcJoHeYoeXkeO-6" value="kafka消息" style="shape=umlLifeline;perimeter=lifelinePerimeter;container=1;collapsible=0;recursiveResize=0;rounded=0;shadow=0;strokeWidth=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="749.5" y="10" width="100" height="660" as="geometry" />
+        </mxCell>
+        <mxCell id="74td1c7qcJoHeYoeXkeO-10" value="" style="endArrow=classic;html=1;entryX=0.495;entryY=0.323;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.51;exitY=0.215;exitDx=0;exitDy=0;exitPerimeter=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" edge="1" parent="1" source="vI5zeRo2F1aZtrcYhNLY-11" target="74td1c7qcJoHeYoeXkeO-6">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="700" y="230" as="sourcePoint" />
+            <mxPoint x="750" y="180" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="74td1c7qcJoHeYoeXkeO-11" value="" style="endArrow=classic;html=1;entryX=0.51;entryY=0.241;entryDx=0;entryDy=0;entryPerimeter=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" edge="1" parent="1" target="vI5zeRo2F1aZtrcYhNLY-11">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="799.5" y="240" as="sourcePoint" />
+            <mxPoint x="849.5" y="190" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="74td1c7qcJoHeYoeXkeO-12" value="" style="endArrow=classic;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;dashed=1;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="370" y="270" as="sourcePoint" />
+            <mxPoint x="160" y="270" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
